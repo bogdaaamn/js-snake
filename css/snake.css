@@ -1,0 +1,120 @@
+body {
+    overflow:hidden;
+}
+
+#sketch-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+#score {
+    pointer-events: none;
+    position: absolute;
+}
+
+#points {
+    pointer-events: none;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+
+/* ---start-gui--- */
+
+#start-gui {
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    position: absolute;
+}
+
+#title {
+    color: white;
+    pointer-events: none;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#instr {
+    color: white;
+    pointer-events: none;
+    line-height: 50%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#high {
+    color: white;
+    pointer-events: none;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+
+/* ---nick-gui--- */
+
+#nick-gui {
+	background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#nick-text {
+	color: white; 
+	pointer-events: none;
+	text-align: center;
+	font-family: Verdana; 
+	font-size: 18px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	margin: 10px;
+}
+
+#nick-box {
+	color: white;
+	text-align: center;
+	font-family: Verdana; 
+	font-size: 18px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+	margin:0px auto; 
+	display:block; 
+	text-align:center; 
+	background: black; 
+	border-top: 0; 
+	border-right: 0; 
+	border-left: 0;
+}
+
+input:focus {
+    outline: none;
+}

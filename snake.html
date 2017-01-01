@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+
+  <link rel="stylesheet" type="text/css" href="css/snake.css">
+
+  <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+  <script src="sketch.js" type="text/javascript"></script>
+  <script src="snake.js" type="text/javascript"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+</head>
+
+<body bgcolor = black>
+
+  <div id="sketch-holder">
+
+    <div id = "score">
+      <p id = "points">Score: 0</p>
+    </div>
+
+    <div id = "mask"> </div>
+
+    <div id = "start-gui">
+      <p id = "title" style = ""></p>
+      <p id = "instr" style = ""></p>
+      <p id = "high" style = ""></p>
+    </div>
+
+    <div id = "nick-gui">
+      <p id="nick-text"></p>
+      <input id="nick-box" type="text" maxlength="15" />
+    </div>
+
+    <div id = "mask"> </div>
+    
+  </div>
+
+</body>
+
+</html>
